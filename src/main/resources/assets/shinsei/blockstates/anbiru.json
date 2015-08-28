@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "shinsei:anbiru" },
+        "facing=south": { "model": "shinsei:anbiru", "y": 180 },
+        "facing=west":  { "model": "shinsei:anbiru", "y": 270 },
+        "facing=east":  { "model": "shinsei:anbiru", "y": 90 }
+    }
+}

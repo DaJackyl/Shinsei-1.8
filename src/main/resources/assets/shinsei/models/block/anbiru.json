@@ -1,0 +1,10 @@
+{
+    "parent": "block/orientable",
+    "textures":
+    {
+        "bot": "shinsei:blocks/anbiru_bot",
+        "top": "shinsei:blocks/anbiru_top",
+        "front": "shinsei:blocks/anbiru_front",
+        "side": "shinsei:blocks/anbiru_side"
+    }
+}
