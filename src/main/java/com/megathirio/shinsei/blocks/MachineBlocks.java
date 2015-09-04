@@ -15,7 +15,7 @@ public class MachineBlocks {
     public static HashMap<Block, String> machineMap = new MachineMap().getMachineMap();
 
     public static void createMachines(){
-        MetalMap.addMetals();
+        MachineMap.addMachines();
         for(Map.Entry<Block, String> mapEntry : machineMap.entrySet()) {
             GameRegistry.registerBlock(mapEntry.getKey(), mapEntry.getValue());
         }

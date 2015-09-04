@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 
 import java.util.HashMap;
 
-public class BookMap {
+public class BooksMap {
     public static HashMap<String, Item> bookMap = new HashMap<String, Item>();
 
     public static void addBooks() {

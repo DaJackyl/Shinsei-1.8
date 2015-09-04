@@ -1,4 +1,4 @@
-package com.megathirio.shinsei.items;
+package com.megathirio.shinsei.items.tools;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;

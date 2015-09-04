@@ -9,18 +9,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Tools {
-    public static HashMap<String, Item> toolMap = new ToolMap().getToolMap();
+public class Foods {
+    public static HashMap<String, Item> foodMap = new FoodMap().getFoodMap();
 
-    public static void createTools(){
-        ToolMap.addTools();
-        for(Map.Entry<String, Item> mapEntry : toolMap.entrySet()) {
+    public static void createFoods(){
+        FoodMap.addFoods();
+        for(Map.Entry<String, Item> mapEntry : foodMap.entrySet()) {
             GameRegistry.registerItem(mapEntry.getValue(), mapEntry.getKey());
         }
     }
 
     public static void registerItemRenderer(){
-        for (Map.Entry<String, Item> mapEntry : toolMap.entrySet()) {
+        for (Map.Entry<String, Item> mapEntry : foodMap.entrySet()) {
             String unlocalizedName = mapEntry.getKey();
             Item item = mapEntry.getValue();
 
@@ -30,7 +30,7 @@ public class Tools {
     }
 
     public static Item getItem(String itemName){
-        return toolMap.get(itemName);
+        return foodMap.get(itemName);
     }
 
 }

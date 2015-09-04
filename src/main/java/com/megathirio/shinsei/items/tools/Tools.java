@@ -1,4 +1,4 @@
-package com.megathirio.shinsei.items;
+package com.megathirio.shinsei.items.tools;
 
 import com.megathirio.shinsei.ref.Ref;
 import net.minecraft.client.Minecraft;
@@ -9,18 +9,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Books {
-    public static HashMap<String, Item> bookMap = new BooksMap().getBookMap();
+public class Tools {
+    public static HashMap<String, Item> toolMap = new ToolMap().getToolMap();
 
-    public static void createBooks(){
-        BooksMap.addBooks();
-        for(Map.Entry<String, Item> mapEntry : bookMap.entrySet()) {
+    public static void createTools(){
+        ToolMap.addTools();
+        for(Map.Entry<String, Item> mapEntry : toolMap.entrySet()) {
             GameRegistry.registerItem(mapEntry.getValue(), mapEntry.getKey());
         }
     }
 
     public static void registerItemRenderer(){
-        for (Map.Entry<String, Item> mapEntry : bookMap.entrySet()) {
+        for (Map.Entry<String, Item> mapEntry : toolMap.entrySet()) {
             String unlocalizedName = mapEntry.getKey();
             Item item = mapEntry.getValue();
 
@@ -30,7 +30,7 @@ public class Books {
     }
 
     public static Item getItem(String itemName){
-        return bookMap.get(itemName);
+        return toolMap.get(itemName);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.megathirio.shinsei.items;
+package com.megathirio.shinsei.items.tools;
 
 import com.megathirio.shinsei.core.ShinseiTabs;
 import net.minecraft.item.ItemPickaxe;

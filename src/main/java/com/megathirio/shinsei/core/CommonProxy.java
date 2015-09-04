@@ -4,9 +4,10 @@ import com.megathirio.shinsei.blocks.GemBlocks;
 import com.megathirio.shinsei.blocks.MachineBlocks;
 import com.megathirio.shinsei.blocks.MetalBlocks;
 import com.megathirio.shinsei.items.Books;
+import com.megathirio.shinsei.items.Foods;
 import com.megathirio.shinsei.items.GemItems;
 import com.megathirio.shinsei.items.MetalItems;
-import com.megathirio.shinsei.items.Tools;
+import com.megathirio.shinsei.items.tools.Tools;
 import com.megathirio.shinsei.world.ShinseiWorldGen;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -16,6 +17,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class CommonProxy {
 
     public void preInit(FMLPreInitializationEvent e){
+        Foods.createFoods();
         GemItems.createGemItems();
         GemBlocks.createGemBlocks();
         MetalItems.createMetalItems();

@@ -7,7 +7,11 @@ public class Names {
         public static final String AMETHYST = "amethyst";
         public static final String APATITE = "apatite";
         public static final String AQUAMARINE = "aquamarine";
+        public static final String BONE = "bone";
+        public static final String BRASS = "brass";
+        public static final String BRONZE = "bronze";
         public static final String COPPER = "copper";
+        public static final String FLINT = "flint";
         public static final String FLUORITE = "fluorite";
         public static final String JADE = "jade";
         public static final String ONYX = "onyx";
@@ -16,6 +20,9 @@ public class Names {
         public static final String RUBY = "ruby";
         public static final String SAPPHIRE = "sapphire";
         public static final String SCARLET_EMERALD = "scarlet_emerald";
+        public static final String STAINLESS_STEEL = "stainless_steel";
+        public static final String STEEL = "steel";
+        public static final String TITANIUM = "titanium";
         public static final String TOPAZ = "topaz";
         public static final String TURQUOISE = "turquoise";
         public static final String SILVER = "silver";
@@ -94,8 +101,64 @@ public class Names {
         public static final String ALUMINUM = materials.ALUMINUM + "_dust";
     }
 
+    public static final class foods {
+        public static final String POISON_APPLE = "apple";
+        public static final String POISON_BEEF = "beef_cooked";
+        public static final String POISON_BREAD = "bread";
+        public static final String POISON_CARROT = "carrot";
+        public static final String POISON_CHICKEN = "chicken_cooked";
+        public static final String POISON_COOKIE = "cookie";
+        public static final String POISON_COD = "fish_cod_cooked";
+        public static final String POISON_MELON = "melon";
+        public static final String POISON_MILK = "bucket_milk";
+        public static final String POISON_MUTTON = "mutton_cooked";
+        public static final String POISON_PIE = "pumpkin_pie";
+        public static final String POISON_PORK = "porkchop_cooked";
+        public static final String POISON_RABBIT = "rabbit_cooked";
+        public static final String POISON_RABBIT_STEW = "rabbit_stew";
+        public static final String POISON_SALMON = "fish_salmon_cooked";
+        public static final String CURED_BEEF = "cured_beef";
+        public static final String CURED_PORK = "cured_pork";
+    }
+
     public static final class tools {
+        public static final String BONE_AXE = materials.BONE + "_axe";
+        public static final String BRASS_AXE = materials.BRASS + "_axe";
+        public static final String BRASS_HOE = materials.BRASS + "_hoe";
+        public static final String BRASS_PICK = materials.BRASS + "_pickaxe";
+        public static final String BRASS_SHOVEL = materials.BRASS + "_shovel";
+        public static final String BRASS_SWORD = materials.BRASS + "_sword";
+        public static final String BRONZE_AXE = materials.BRONZE + "_axe";
+        public static final String BRONZE_HOE = materials.BRONZE + "_hoe";
+        public static final String BRONZE_PICK = materials.BRONZE + "_pickaxe";
+        public static final String BRONZE_SHOVEL = materials.BRONZE + "_shovel";
+        public static final String BRONZE_SWORD = materials.BRONZE + "_sword";
+        public static final String COPPER_AXE = materials.COPPER + "_axe";
+        public static final String COPPER_HOE = materials.COPPER + "_hoe";
         public static final String COPPER_PICK = materials.COPPER + "_pickaxe";
+        public static final String COPPER_SHOVEL = materials.COPPER + "_shovel";
+        public static final String COPPER_SWORD = materials.COPPER + "_sword";
+        public static final String FLINT_AXE = materials.FLINT + "_axe";
+        public static final String SILVER_AXE = materials.SILVER + "_axe";
+        public static final String SILVER_HOE = materials.SILVER + "_hoe";
+        public static final String SILVER_PICK = materials.SILVER + "_pickaxe";
+        public static final String SILVER_SHOVEL = materials.SILVER + "_shovel";
+        public static final String SILVER_SWORD = materials.SILVER + "_sword";
+        public static final String STAINLESS_STEEL_AXE = materials.STAINLESS_STEEL + "_axe";
+        public static final String STAINLESS_STEEL_HOE = materials.STAINLESS_STEEL + "_hoe";
+        public static final String STAINLESS_STEEL_PICK = materials.STAINLESS_STEEL + "_pickaxe";
+        public static final String STAINLESS_STEEL_SHOVEL = materials.STAINLESS_STEEL + "_shovel";
+        public static final String STAINLESS_STEEL_SWORD = materials.STAINLESS_STEEL + "_sword";
+        public static final String STEEL_AXE = materials.STEEL + "_axe";
+        public static final String STEEL_HOE = materials.STEEL + "_hoe";
+        public static final String STEEL_PICK = materials.STEEL + "_pickaxe";
+        public static final String STEEL_SHOVEL = materials.STEEL + "_shovel";
+        public static final String STEEL_SWORD = materials.STEEL + "_sword";
+        public static final String TITANIUM_AXE = materials.TITANIUM + "_axe";
+        public static final String TITANIUM_HOE = materials.TITANIUM + "_hoe";
+        public static final String TITANIUM_PICK = materials.TITANIUM + "_pickaxe";
+        public static final String TITANIUM_SHOVEL = materials.TITANIUM + "_shovel";
+        public static final String TITANIUM_SWORD = materials.TITANIUM + "_sword";
     }
 
     public static final class machines {

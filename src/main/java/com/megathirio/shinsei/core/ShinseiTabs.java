@@ -2,9 +2,8 @@ package com.megathirio.shinsei.core;
 
 import com.megathirio.shinsei.blocks.GemBlocks;
 import com.megathirio.shinsei.blocks.MetalBlocks;
-import com.megathirio.shinsei.items.GemItems;
 import com.megathirio.shinsei.items.MetalItems;
-import com.megathirio.shinsei.items.Tools;
+import com.megathirio.shinsei.items.tools.Tools;
 import com.megathirio.shinsei.ref.Names;
 import com.megathirio.shinsei.ref.Ref;
 import net.minecraft.creativetab.CreativeTabs;
@@ -32,6 +31,12 @@ public class ShinseiTabs {
         }
     };
 
+    public static final CreativeTabs FOODS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "foods_tab") {
+        @Override
+        public Item getTabIconItem() {
+            return MetalItems.getItem(Names.ingots.SILVER);
+        }
+    };
     public static final CreativeTabs TOOLS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "tools_tab") {
         @Override
         public Item getTabIconItem() {

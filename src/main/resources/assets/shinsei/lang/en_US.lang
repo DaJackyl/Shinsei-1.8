@@ -2,10 +2,11 @@
 
 # Creative Tabs
 itemGroup.shinsei:metals_tab=Shinsei Metals
-itemGroup.shinsei:blocks_tab=Shinsei Blocks
 itemGroup.shinsei:gems_tab=Shinsei Gems
-itemGroup.shinsei:tools_tab=Shinsei Tools
+itemGroup.shinsei:blocks_tab=Shinsei Blocks
+itemGroup.shinsei:machines_tab=Shinsei Machines
 itemGroup.shinsei:food_tab=Shinsei Food
+itemGroup.shinsei:tools_tab=Shinsei Tools
 itemGroup.shinsei:items_tab=Shinsei Items
 
 #Gems
@@ -130,9 +131,23 @@ item.amethyst_dust_infused.name=Infused Amethyst Dust
 item.apatite_gem.name=Apatite
 
 #Food
+item.apple.name=Apple
+item.bread.name=Bread
+item.carrot.name=Carrot
+item.chicken_cooked.name=Cooked Chicken
+item.fish_cod_cooked.name=Cooked Fish
+item.cookie.name=Cookie
+item.melon.name=Melon
+item.bucket_milk.name=Milk
+item.mutton_cooked.name=Cooked Mutton
+item.porkchop_cooked.name=Porkchop
+item.pumpkin_pie.name=Pumpkin Pie
+item.rabbit_cooked.name=Cooked Rabbit
+item.rabbit_stew.name=Rabbit Stew
+item.fish_salmon_cooked.name=Cooked Salmon
+item.beef_cooked.name=Steak
 item.cured_beef.name=Cured Beef
 item.cured_pork.name=Cured Pork
-item.apple.name=Apple
 
 item.salt.name=Salt
 
@@ -149,11 +164,42 @@ item.book_shinsei.name=Shinsei Vol. I
 
 item.bone_axe.name=Bone Axe
 item.flint_axe.name=Flint Axe
+
+item.bronze_axe.name=Bronze Axe
+item.bronze_hoe.name=Bronze Hoe
+item.bronze_pickaxe.name=Bronze Pickaxe
+item.bronze_shovel.name=Bronze Shovel
+item.bronze_sword.name=Bronze Sword
+
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_shovel.name=Copper Shovel
+item.copper_sword.name=Copper Sword
+
 item.silver_axe.name=Silver Axe
 item.silver_hoe.name=Silver Hoe
 item.silver_pickaxe.name=Silver Pickaxe
 item.silver_shovel.name=Silver Shovel
 item.silver_sword.name=Silver Sword
+
+item.stainless_steel_axe.name=Stainless Steel Axe
+item.stainless_steel_hoe.name=Stainless Steel Hoe
+item.stainless_steel_pickaxe.name=Stainless Steel Pickaxe
+item.stainless_steel_shovel.name=Stainless Steel Shovel
+item.stainless_steel_sword.name=Stainless Steel Sword
+
+item.steel_axe.name=Steel Axe
+item.steel_hoe.name=Steel Hoe
+item.steel_pickaxe.name=Steel Pickaxe
+item.steel_shovel.name=Steel Shovel
+item.steel_sword.name=Steel Sword
+
+item.titanium_axe.name=Titanium Axe
+item.titanium_hoe.name=Titanium Hoe
+item.titanium_pickaxe.name=Titanium Pickaxe
+item.titanium_shovel.name=Titanium Shovel
+item.titanium_sword.name=Titanium Sword
 
 item.silver_axe_blade.name=Silver Axe Blade
 item.silver_hoe_blade.name=Silver Hoe Blade

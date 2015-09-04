@@ -1,10 +1,9 @@
 package com.megathirio.shinsei.blocks;
 
 import com.megathirio.shinsei.core.ShinseiTabs;
-import com.megathirio.shinsei.items.BaseItem;
+import com.megathirio.shinsei.items.tools.BaseItem;
 import com.megathirio.shinsei.items.GemItems;
 import com.megathirio.shinsei.ref.Names;
-import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
