@@ -15,7 +15,7 @@ public class BaseGem extends Block{
     private int min_qty;
     private int max_qty;
 
-    protected BaseGem(String name, Material mat, float hard, float resist, Item drop, int meta, int min_qty, int max_qty, float lightLevel){
+    protected BaseGem(String name, Material mat, Item drop, float hard, float resist, int meta, int min_qty, int max_qty, float lightLevel){
         super(mat);
         this.drop = drop;
         this.meta = meta;
@@ -30,15 +30,15 @@ public class BaseGem extends Block{
     }
 
     protected BaseGem(String name, Material mat, Item drop, float hard, float resist, int min_qty, int max_qty){
-        this(name, mat, hard, resist, drop, 0, min_qty, max_qty, .5f);
+        this(name, mat, drop, hard, resist, 0, min_qty, max_qty, .5f);
     }
 
     protected BaseGem(String name, Material mat, Item drop, int min_qty, int max_qty){
-        this(name, mat, 7.0f, 11.3f, drop, 0, min_qty, max_qty, 0.5f);
+        this(name, mat, drop, 7.0f, 11.3f, 0, min_qty, max_qty, 0.5f);
     }
 
     protected BaseGem(String name, Material mat, Item drop){
-        this(name, mat, 7.0f, 11.3f, drop, 0, 1, 1, .5f);
+        this(name, mat, drop, 7.0f, 11.3f, 0, 1, 1, .5f);
     }
 
     @Override

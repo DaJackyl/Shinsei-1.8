@@ -17,6 +17,13 @@ public class ShinseiTabs {
         }
     };
 
+    public static final CreativeTabs MINERALS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "minerals_tab") {
+        @Override
+        public Item getTabIconItem() {
+            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.ACANTHITE));
+        }
+    };
+
     public static final CreativeTabs GEMS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "gems_tab") {
         @Override
         public Item getTabIconItem() {
@@ -25,6 +32,13 @@ public class ShinseiTabs {
     };
 
     public static final CreativeTabs MACHINES_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "machines_tab") {
+        @Override
+        public Item getTabIconItem() {
+            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.ACANTHITE));
+        }
+    };
+
+    public static final CreativeTabs BLOCKS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "blocks_tab") {
         @Override
         public Item getTabIconItem() {
             return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.ACANTHITE));

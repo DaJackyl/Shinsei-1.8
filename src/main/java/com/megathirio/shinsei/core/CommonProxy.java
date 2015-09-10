@@ -1,12 +1,8 @@
 package com.megathirio.shinsei.core;
 
-import com.megathirio.shinsei.blocks.GemBlocks;
-import com.megathirio.shinsei.blocks.MachineBlocks;
-import com.megathirio.shinsei.blocks.MetalBlocks;
-import com.megathirio.shinsei.items.Books;
-import com.megathirio.shinsei.items.Foods;
-import com.megathirio.shinsei.items.GemItems;
-import com.megathirio.shinsei.items.MetalItems;
+import com.megathirio.shinsei.blocks.*;
+import com.megathirio.shinsei.crafting.RecipeManager;
+import com.megathirio.shinsei.items.*;
 import com.megathirio.shinsei.items.tools.Tools;
 import com.megathirio.shinsei.world.ShinseiWorldGen;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -23,12 +19,16 @@ public class CommonProxy {
         MetalItems.createMetalItems();
         MetalBlocks.createMetalBlocks();
         MachineBlocks.createMachines();
+        MineralBlocks.createMineralBlocks();
+        MineralItems.createMineralItems();
+        MetaBlocks.createMetaBlocks();
         Tools.createTools();
         Books.createBooks();
     }
 
     public void init(FMLInitializationEvent e){
         GameRegistry.registerWorldGenerator(new ShinseiWorldGen(), 0);
+        RecipeManager.initRecipes();
     }
 
     public void postInit(FMLPostInitializationEvent e){

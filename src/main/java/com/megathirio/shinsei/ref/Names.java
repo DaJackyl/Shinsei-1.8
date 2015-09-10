@@ -2,6 +2,13 @@ package com.megathirio.shinsei.ref;
 
 public class Names {
 
+    public static final class metas {
+        public static final String BRICKS = "bricks";
+        public static final String GRANITE = "granite";
+        public static final String MARBLE = "marble";
+        public static final String SIDING = "siding";
+    }
+
     public static final class materials {
         public static final String ALUMINUM = "aluminum";
         public static final String AMETHYST = "amethyst";
@@ -26,6 +33,7 @@ public class Names {
         public static final String TOPAZ = "topaz";
         public static final String TURQUOISE = "turquoise";
         public static final String SILVER = "silver";
+        public static final String WOOD = "wood";
     }
 
     public static final class ores {
@@ -34,6 +42,7 @@ public class Names {
         public static final String APATITE = materials.APATITE + "_ore";
         public static final String BERYL = "beryl_ore";
         public static final String CHALCEDONY = "chalcedony_ore";
+        public static final String CORUNDUM = "corundum_ore";
         public static final String FLUORITE = materials.FLUORITE + "_ore";
         public static final String JADEITE = "jadeite_ore";
         public static final String OLIVINE = "olivine_ore";
@@ -56,6 +65,7 @@ public class Names {
         public static final String GALENA = "galena_ore";
         public static final String HEMATITE = "hematite_ore";
         public static final String ILMENITE = "ilmenite_ore";
+        public static final String METEORITE = "meteorite_ore";
         public static final String MOLYBDENITE = "molybdenite_ore";
         public static final String PENTLANDITE = "pentlandite_ore";
         public static final String PYROLUSITE = "pyrolusite_ore";
@@ -68,6 +78,17 @@ public class Names {
         public static final String SYLVITE = "sylvite_ore";
         public static final String TANTALITE = "tantalite_ore";
         public static final String URANINITE = "uraninite_ore";
+
+        //Minerals
+        public static final String BASALT = "basalt_block";
+        public static final String BASALT_COBBLE = "basalt_cobble";
+        public static final String BORAX = "borax_block";
+        public static final String CHALK = "chalk_block";
+        public static final String DOLOMITE = "dolomite_ore";
+        public static final String GYPSUM = "gypsum_block";
+        public static final String HALITE = "halite_ore";
+        public static final String LIMESTONE = "limestone_block";
+        public static final String SILTSTONE = "siltstone_block";
     }
 
     public static final class gems {
@@ -87,18 +108,32 @@ public class Names {
     }
 
     public static final class ingots {
-        public static final String SILVER = materials.SILVER + "_ingot";
         public static final String ALUMINUM = materials.ALUMINUM + "_ingot";
+        public static final String COPPER = materials.COPPER + "_ingot";
+        public static final String SILVER = materials.SILVER + "_ingot";
     }
 
     public static final class nuggets {
-        public static final String SILVER = materials.SILVER + "_nugget";
         public static final String ALUMINUM = materials.ALUMINUM + "_nugget";
+        public static final String COPPER = materials.COPPER + "_nugget";
+        public static final String SILVER = materials.SILVER + "_nugget";
     }
 
     public static final class dusts {
-        public static final String SILVER = materials.SILVER + "_dust";
+        //Metals
         public static final String ALUMINUM = materials.ALUMINUM + "_dust";
+        public static final String ARSENIC = "arsenic_dust";
+        public static final String COPPER = materials.COPPER + "_dust";
+        public static final String SILVER = materials.SILVER + "_dust";
+
+        //Minerals
+        public static final String BORAX = "borax_dust";
+        public static final String CHALK = "chalk_dust";
+        public static final String DOLOMITE = "dolomite_dust";
+        public static final String GYPSUM = "gypsum_dust";
+        public static final String SALT = "salt";
+        public static final String QUICKLIME = "quicklime_dust";
+        public static final String SILT = "silt";
     }
 
     public static final class foods {
@@ -122,6 +157,7 @@ public class Names {
     }
 
     public static final class tools {
+        public static final String WOOD_HANDLE = materials.WOOD + "_tool_handle";
         public static final String BONE_AXE = materials.BONE + "_axe";
         public static final String BRASS_AXE = materials.BRASS + "_axe";
         public static final String BRASS_HOE = materials.BRASS + "_hoe";
@@ -166,7 +202,7 @@ public class Names {
     }
 
     public static final class books {
-        public static final String AXE = "book_pickaxe";
+        public static final String AXE = "book_axe";
         public static final String CHISEL = "book_chisel";
         public static final String HOE = "book_hoe";
         public static final String PICKAXE = "book_pickaxe";

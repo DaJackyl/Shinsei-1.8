@@ -17,6 +17,7 @@ public class BookSword extends Item{
         this.setCreativeTab(ShinseiTabs.TOOLS_TAB);
     }
 
+/*
     @Override
     public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn){
         if (!worldIn.isRemote)
@@ -27,6 +28,7 @@ public class BookSword extends Item{
         return itemStackIn;
     }
 
+*/
     @Override
     public boolean hasContainerItem(ItemStack itemstack) {
         return true;

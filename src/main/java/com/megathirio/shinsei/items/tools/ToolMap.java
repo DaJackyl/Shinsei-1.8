@@ -1,5 +1,6 @@
 package com.megathirio.shinsei.items.tools;
 
+import com.megathirio.shinsei.core.ShinseiTabs;
 import com.megathirio.shinsei.ref.Names;
 import net.minecraft.item.Item;
 
@@ -9,6 +10,7 @@ public class ToolMap {
     public static HashMap<String, Item> toolMap = new HashMap<String, Item>();
 
     public static void addTools() {
+        toolMap.put(Names.tools.WOOD_HANDLE, new BaseItem(Names.tools.WOOD_HANDLE, ShinseiTabs.TOOLS_TAB));
         toolMap.put(Names.tools.BONE_AXE, new PrimitiveAxe(Names.tools.BONE_AXE, Materials.materialBone));
         toolMap.put(Names.tools.FLINT_AXE, new PrimitiveAxe(Names.tools.FLINT_AXE, Materials.materialFlint));
         toolMap.put(Names.tools.BRASS_AXE, new BaseAxe(Names.tools.BRASS_AXE, Materials.materialBrass));

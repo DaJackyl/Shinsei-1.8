@@ -17,6 +17,7 @@ public class MetalMap {
         metalMap.put(new BaseMetal(Names.ores.ACANTHITE), Names.ores.ACANTHITE);
         metalMap.put(new BaseMetal(Names.ores.BAUXITE), Names.ores.BAUXITE);
         metalMap.put(new BaseMetal(Names.ores.CINNABAR), Names.ores.CINNABAR);
+        metalMap.put(new BaseMetal(Names.ores.METEORITE), Names.ores.METEORITE);
         metalMap.put(new BaseMetal(Names.ores.REALGAR), Names.ores.REALGAR);
         metalMap.put(new BaseMetal(Names.ores.STIBNITE), Names.ores.STIBNITE);
         metalMap.put(new BaseMetal(Names.ores.SYLVITE), Names.ores.SYLVITE);
@@ -45,12 +46,16 @@ public class MetalMap {
     }
 
     public static void addMetalItems() {
-        metalItemMap.put(Names.ingots.SILVER, new BaseItem(Names.ingots.SILVER, ShinseiTabs.METALS_TAB));
         metalItemMap.put(Names.ingots.ALUMINUM, new BaseItem(Names.ingots.ALUMINUM, ShinseiTabs.METALS_TAB));
-        metalItemMap.put(Names.nuggets.SILVER, new BaseItem(Names.nuggets.SILVER, ShinseiTabs.METALS_TAB));
+        metalItemMap.put(Names.ingots.COPPER, new BaseItem(Names.ingots.COPPER, ShinseiTabs.METALS_TAB));
+        metalItemMap.put(Names.ingots.SILVER, new BaseItem(Names.ingots.SILVER, ShinseiTabs.METALS_TAB));
         metalItemMap.put(Names.nuggets.ALUMINUM, new BaseItem(Names.nuggets.ALUMINUM, ShinseiTabs.METALS_TAB));
-        metalItemMap.put(Names.dusts.SILVER, new BaseItem(Names.dusts.SILVER, ShinseiTabs.METALS_TAB));
+        metalItemMap.put(Names.nuggets.COPPER, new BaseItem(Names.nuggets.COPPER, ShinseiTabs.METALS_TAB));
+        metalItemMap.put(Names.nuggets.SILVER, new BaseItem(Names.nuggets.SILVER, ShinseiTabs.METALS_TAB));
         metalItemMap.put(Names.dusts.ALUMINUM, new BaseItem(Names.dusts.ALUMINUM, ShinseiTabs.METALS_TAB));
+        metalItemMap.put(Names.dusts.ARSENIC, new BaseItem(Names.dusts.ARSENIC, ShinseiTabs.METALS_TAB));
+        metalItemMap.put(Names.dusts.COPPER, new BaseItem(Names.dusts.COPPER, ShinseiTabs.METALS_TAB));
+        metalItemMap.put(Names.dusts.SILVER, new BaseItem(Names.dusts.SILVER, ShinseiTabs.METALS_TAB));
     }
 
     public static HashMap<String, Item> getMetalItemMap() {
