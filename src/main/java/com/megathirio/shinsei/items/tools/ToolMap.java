@@ -1,6 +1,10 @@
 package com.megathirio.shinsei.items.tools;
 
 import com.megathirio.shinsei.core.ShinseiTabs;
+import com.megathirio.shinsei.items.BaseContainer;
+import com.megathirio.shinsei.items.Books;
+import com.megathirio.shinsei.items.DurableItem;
+import com.megathirio.shinsei.items.MetalItems;
 import com.megathirio.shinsei.ref.Names;
 import net.minecraft.item.Item;
 
@@ -8,6 +12,7 @@ import java.util.HashMap;
 
 public class ToolMap {
     public static HashMap<String, Item> toolMap = new HashMap<String, Item>();
+    public static HashMap<String, String[]> toolSets = new HashMap<String, String[]>();
 
     public static void addTools() {
         toolMap.put(Names.tools.WOOD_HANDLE, new BaseItem(Names.tools.WOOD_HANDLE, ShinseiTabs.TOOLS_TAB));
@@ -28,6 +33,7 @@ public class ToolMap {
         toolMap.put(Names.tools.COPPER_PICK, new BasePickaxe(Names.tools.COPPER_PICK, Materials.materialCopper));
         toolMap.put(Names.tools.COPPER_SWORD, new BaseSword(Names.tools.COPPER_SWORD, Materials.materialCopper));
         toolMap.put(Names.tools.COPPER_SHOVEL, new BaseShovel(Names.tools.COPPER_SHOVEL, Materials.materialCopper));
+        toolMap.put(Names.tools.IRON_HAMMER, new DurableItem(Names.tools.IRON_HAMMER, 100));
         toolMap.put(Names.tools.SILVER_AXE, new BaseAxe(Names.tools.SILVER_AXE, Materials.materialSilver));
         toolMap.put(Names.tools.SILVER_HOE, new BaseHoe(Names.tools.SILVER_HOE, Materials.materialSilver));
         toolMap.put(Names.tools.SILVER_PICK, new BasePickaxe(Names.tools.SILVER_PICK, Materials.materialSilver));
@@ -50,7 +56,30 @@ public class ToolMap {
         toolMap.put(Names.tools.TITANIUM_SWORD, new BaseAxe(Names.tools.TITANIUM_SWORD, Materials.materialTitanium));
     }
 
+    public static void addSets() {
+        //new String name, new Item[]{book, material, nugget,dust}
+        toolSets.put(Names.tools.COPPER_AXE, new String[]{Names.tools.IRON_HAMMER, Names.books.AXE, Names.ingots.COPPER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.COPPER_HOE, new String[]{Names.tools.IRON_HAMMER, Names.books.HOE, Names.ingots.COPPER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.COPPER_PICK, new String[]{Names.tools.IRON_HAMMER, Names.books.PICKAXE, Names.ingots.COPPER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.COPPER_SHOVEL, new String[]{Names.tools.IRON_HAMMER, Names.books.SHOVEL, Names.ingots.COPPER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.COPPER_SWORD, new String[]{Names.tools.IRON_HAMMER, Names.books.SWORD, Names.ingots.COPPER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.SILVER_AXE, new String[]{Names.tools.IRON_HAMMER, Names.books.AXE, Names.ingots.SILVER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.SILVER_HOE, new String[]{Names.tools.IRON_HAMMER, Names.books.HOE, Names.ingots.SILVER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.SILVER_PICK, new String[]{Names.tools.IRON_HAMMER, Names.books.PICKAXE, Names.ingots.SILVER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.SILVER_SHOVEL, new String[]{Names.tools.IRON_HAMMER, Names.books.SHOVEL, Names.ingots.SILVER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.SILVER_SWORD, new String[]{Names.tools.IRON_HAMMER, Names.books.SWORD, Names.ingots.SILVER, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.TITANIUM_AXE, new String[]{Names.tools.IRON_HAMMER, Names.books.AXE, Names.ingots.TITANIUM, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.TITANIUM_HOE, new String[]{Names.tools.IRON_HAMMER, Names.books.HOE, Names.ingots.TITANIUM, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.TITANIUM_PICK, new String[]{Names.tools.IRON_HAMMER, Names.books.PICKAXE, Names.ingots.TITANIUM, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.TITANIUM_SHOVEL, new String[]{Names.tools.IRON_HAMMER, Names.books.SHOVEL, Names.ingots.TITANIUM, Names.tools.WOOD_HANDLE});
+        toolSets.put(Names.tools.TITANIUM_SWORD, new String[]{Names.tools.IRON_HAMMER, Names.books.SWORD, Names.ingots.TITANIUM, Names.tools.WOOD_HANDLE});
+    }
+
     public static HashMap<String, Item> getToolMap() {
         return toolMap;
+    }
+
+    public static HashMap<String, String[]> getToolSets() {
+        return toolSets;
     }
 }

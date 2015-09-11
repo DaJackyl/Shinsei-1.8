@@ -14,6 +14,7 @@ public class Tools {
 
     public static void createTools(){
         ToolMap.addTools();
+        ToolMap.addSets();
         for(Map.Entry<String, Item> mapEntry : toolMap.entrySet()) {
             GameRegistry.registerItem(mapEntry.getValue(), mapEntry.getKey());
         }

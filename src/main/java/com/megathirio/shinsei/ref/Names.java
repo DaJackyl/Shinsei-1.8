@@ -12,28 +12,47 @@ public class Names {
     public static final class materials {
         public static final String ALUMINUM = "aluminum";
         public static final String AMETHYST = "amethyst";
+        public static final String ANTIMONY = "antimony";
         public static final String APATITE = "apatite";
         public static final String AQUAMARINE = "aquamarine";
+        public static final String BARIUM = "barium";
+        public static final String BISMUTH = "bismuth";
         public static final String BONE = "bone";
         public static final String BRASS = "brass";
         public static final String BRONZE = "bronze";
+        public static final String CHROMIUM = "chromium";
+        public static final String COBALT = "cobalt";
         public static final String COPPER = "copper";
         public static final String FLINT = "flint";
         public static final String FLUORITE = "fluorite";
+        public static final String INDIUM = "indium";
+        public static final String IRIDIUM = "iridium";
+        public static final String IRON = "iron";
         public static final String JADE = "jade";
+        public static final String LEAD = "lead";
+        public static final String MAGNESIUM = "magnesium";
+        public static final String MANGANESE = "manganese";
+        public static final String MOLYBDENUM = "molybdenum";
+        public static final String NICKEL = "nickel";
         public static final String ONYX = "onyx";
         public static final String OPAL = "opal";
         public static final String PERIDOT = "peridot";
+        public static final String PLATINUM = "platinum";
         public static final String RUBY = "ruby";
         public static final String SAPPHIRE = "sapphire";
         public static final String SCARLET_EMERALD = "scarlet_emerald";
+        public static final String SILVER = "silver";
         public static final String STAINLESS_STEEL = "stainless_steel";
         public static final String STEEL = "steel";
+        public static final String TANTALUM = "tantalum";
+        public static final String TIN = "tin";
         public static final String TITANIUM = "titanium";
         public static final String TOPAZ = "topaz";
+        public static final String TUNGSTEN = "tungsten";
         public static final String TURQUOISE = "turquoise";
-        public static final String SILVER = "silver";
+        public static final String VANADIUM = "vanadium";
         public static final String WOOD = "wood";
+        public static final String ZINC = "zinc";
     }
 
     public static final class ores {
@@ -107,24 +126,150 @@ public class Names {
         public static final String TURQUOISE = materials.TURQUOISE + "_gem";
     }
 
+    public static final class blocks {
+        public static final String ALUMINUM = materials.ALUMINUM + "_block";
+        public static final String AMETHYST = materials.AMETHYST + "_block";
+        public static final String ANTIMONY = materials.ANTIMONY + "_block";
+        public static final String APATITE = materials.APATITE + "_block";
+        public static final String AQUAMARINE = materials.AQUAMARINE + "_block";
+        public static final String BARIUM = materials.BARIUM + "_block";
+        public static final String BISMUTH = materials.BISMUTH + "_block";
+        public static final String BRASS = materials.BRASS + "_block";
+        public static final String BRONZE = materials.BRONZE + "_block";
+        public static final String CHROMIUM = materials.CHROMIUM + "_block";
+        public static final String COBALT = materials.COBALT + "_block";
+        public static final String COPPER = materials.COPPER + "_block";
+        public static final String FLUORITE = materials.FLUORITE + "_block";
+        public static final String INDIUM = materials.INDIUM + "_block";
+        public static final String IRIDIUM = materials.IRIDIUM + "_block";
+        public static final String JADE = materials.JADE + "_block";
+        public static final String LEAD = materials.LEAD + "_block";
+        public static final String MAGNESIUM = materials.MAGNESIUM + "_block";
+        public static final String MANGANESE = materials.MANGANESE + "_block";
+        public static final String MOLYBDENUM = materials.MOLYBDENUM + "_block";
+        public static final String NICKEL = materials.NICKEL + "_block";
+        public static final String ONYX = materials.ONYX + "_block";
+        public static final String OPAL = materials.OPAL + "_block";
+        public static final String PERIDOT = materials.PERIDOT + "_block";
+        public static final String PLATINUM = materials.PLATINUM + "_block";
+        public static final String RUBY = materials.RUBY + "_block";
+        public static final String SAPPHIRE = materials.SAPPHIRE + "_block";
+        public static final String SCARLET_EMERALD = materials.SCARLET_EMERALD + "_block";
+        public static final String SILVER = materials.SILVER + "_block";
+        public static final String STAINLESS_STEEL = materials.STAINLESS_STEEL + "_block";
+        public static final String STEEL = materials.STEEL + "_block";
+        public static final String TANTALUM = materials.TANTALUM + "_block";
+        public static final String TIN = materials.TIN + "_block";
+        public static final String TITANIUM = materials.TITANIUM + "_block";
+        public static final String TOPAZ = materials.TOPAZ + "_block";
+        public static final String TUNGSTEN = materials.TUNGSTEN + "_block";
+        public static final String TURQUOISE = materials.TURQUOISE + "_block";
+        public static final String VANADIUM = materials.VANADIUM + "_block";
+        public static final String ZINC = materials.ZINC + "_block";
+    }
+
     public static final class ingots {
         public static final String ALUMINUM = materials.ALUMINUM + "_ingot";
+        public static final String ANTIMONY = materials.ANTIMONY + "_ingot";
+        public static final String BARIUM = materials.BARIUM + "_ingot";
+        public static final String BISMUTH = materials.BISMUTH + "_ingot";
+        public static final String BRASS = materials.BRASS + "_ingot";
+        public static final String BRONZE = materials.BRONZE + "_ingot";
+        public static final String CHROMIUM = materials.CHROMIUM + "_ingot";
+        public static final String COBALT = materials.COBALT + "_ingot";
         public static final String COPPER = materials.COPPER + "_ingot";
+        public static final String INDIUM = materials.INDIUM + "_ingot";
+        public static final String IRIDIUM = materials.IRIDIUM + "_ingot";
+        public static final String LEAD = materials.LEAD + "_ingot";
+        public static final String MAGNESIUM = materials.MAGNESIUM + "_ingot";
+        public static final String MANGANESE = materials.MANGANESE + "_ingot";
+        public static final String MOLYBDENUM = materials.MOLYBDENUM + "_ingot";
+        public static final String NICKEL = materials.NICKEL + "_ingot";
+        public static final String PLATINUM = materials.PLATINUM + "_ingot";
         public static final String SILVER = materials.SILVER + "_ingot";
+        public static final String STAINLESS_STEEL = materials.STAINLESS_STEEL + "_ingot";
+        public static final String STEEL = materials.STEEL + "_ingot";
+        public static final String TANTALUM = materials.TANTALUM + "_ingot";
+        public static final String TIN = materials.TIN + "_ingot";
+        public static final String TITANIUM = materials.TITANIUM + "_ingot";
+        public static final String TUNGSTEN = materials.TUNGSTEN + "_ingot";
+        public static final String VANADIUM = materials.VANADIUM + "_ingot";
+        public static final String ZINC = materials.ZINC + "_ingot";
     }
 
     public static final class nuggets {
         public static final String ALUMINUM = materials.ALUMINUM + "_nugget";
+        public static final String ANTIMONY = materials.ANTIMONY + "_nugget";
+        public static final String BARIUM = materials.BARIUM + "_nugget";
+        public static final String BISMUTH = materials.BISMUTH + "_nugget";
+        public static final String BRASS = materials.BRASS + "_nugget";
+        public static final String BRONZE = materials.BRONZE + "_nugget";
+        public static final String CHROMIUM = materials.CHROMIUM + "_nugget";
+        public static final String COBALT = materials.COBALT + "_nugget";
         public static final String COPPER = materials.COPPER + "_nugget";
+        public static final String INDIUM = materials.INDIUM + "_nugget";
+        public static final String IRIDIUM = materials.IRIDIUM + "_nugget";
+        public static final String IRON = materials.IRON + "_nugget";
+        public static final String LEAD = materials.LEAD + "_nugget";
+        public static final String MAGNESIUM = materials.MAGNESIUM + "_nugget";
+        public static final String MANGANESE = materials.MANGANESE + "_nugget";
+        public static final String MOLYBDENUM = materials.MOLYBDENUM + "_nugget";
+        public static final String NICKEL = materials.NICKEL + "_nugget";
+        public static final String PLATINUM = materials.PLATINUM + "_nugget";
         public static final String SILVER = materials.SILVER + "_nugget";
+        public static final String STAINLESS_STEEL = materials.STAINLESS_STEEL + "_nugget";
+        public static final String STEEL = materials.STEEL + "_nugget";
+        public static final String TANTALUM = materials.TANTALUM + "_nugget";
+        public static final String TIN = materials.TIN + "_nugget";
+        public static final String TITANIUM = materials.TITANIUM + "_nugget";
+        public static final String TUNGSTEN = materials.TUNGSTEN + "_nugget";
+        public static final String VANADIUM = materials.VANADIUM + "_nugget";
+        public static final String ZINC = materials.ZINC + "_nugget";
     }
 
     public static final class dusts {
         //Metals
         public static final String ALUMINUM = materials.ALUMINUM + "_dust";
+        public static final String AMETHYST = materials.AMETHYST + "_dust";
+        public static final String ANTIMONY = materials.ANTIMONY + "_dust";
+        public static final String APATITE = materials.APATITE + "_dust";
+        public static final String AQUAMARINE = materials.AQUAMARINE + "_dust";
         public static final String ARSENIC = "arsenic_dust";
+        public static final String BARIUM = materials.BARIUM + "_dust";
+        public static final String BISMUTH = materials.BISMUTH + "_dust";
+        public static final String BRASS = materials.BRASS + "_dust";
+        public static final String BRONZE = materials.BRONZE + "_dust";
+        public static final String CHROMIUM = materials.CHROMIUM + "_dust";
+        public static final String COBALT = materials.COBALT + "_dust";
         public static final String COPPER = materials.COPPER + "_dust";
+        public static final String FLUORITE = materials.FLUORITE + "_dust";
+        public static final String INDIUM = materials.INDIUM + "_dust";
+        public static final String IRIDIUM = materials.IRIDIUM + "_dust";
+        public static final String IRON = materials.IRON + "_dust";
+        public static final String JADE = materials.JADE + "_dust";
+        public static final String LEAD = materials.LEAD + "_dust";
+        public static final String MAGNESIUM = materials.MAGNESIUM + "_dust";
+        public static final String MANGANESE = materials.MANGANESE + "_dust";
+        public static final String MOLYBDENUM = materials.MOLYBDENUM + "_dust";
+        public static final String NICKEL = materials.NICKEL + "_dust";
+        public static final String ONYX = materials.ONYX + "_dust";
+        public static final String OPAL = materials.OPAL + "_dust";
+        public static final String PERIDOT = materials.PERIDOT + "_dust";
+        public static final String PLATINUM = materials.PLATINUM + "_dust";
+        public static final String RUBY = materials.RUBY + "_dust";
+        public static final String SAPPHIRE = materials.SAPPHIRE + "_dust";
+        public static final String SCARLET_EMERALD = materials.SCARLET_EMERALD + "_dust";
         public static final String SILVER = materials.SILVER + "_dust";
+        public static final String STAINLESS_STEEL = materials.STAINLESS_STEEL + "_dust";
+        public static final String STEEL = materials.STEEL + "_dust";
+        public static final String TANTALUM = materials.TANTALUM + "_dust";
+        public static final String TIN = materials.TIN + "_dust";
+        public static final String TITANIUM = materials.TITANIUM + "_dust";
+        public static final String TOPAZ = materials.TOPAZ + "_dust";
+        public static final String TUNGSTEN = materials.TUNGSTEN + "_dust";
+        public static final String TURQUOISE = materials.TURQUOISE + "_dust";
+        public static final String VANADIUM = materials.VANADIUM + "_dust";
+        public static final String ZINC = materials.ZINC + "_dust";
 
         //Minerals
         public static final String BORAX = "borax_dust";
@@ -175,6 +320,7 @@ public class Names {
         public static final String COPPER_SHOVEL = materials.COPPER + "_shovel";
         public static final String COPPER_SWORD = materials.COPPER + "_sword";
         public static final String FLINT_AXE = materials.FLINT + "_axe";
+        public static final String IRON_HAMMER = "iron_hammer";
         public static final String SILVER_AXE = materials.SILVER + "_axe";
         public static final String SILVER_HOE = materials.SILVER + "_hoe";
         public static final String SILVER_PICK = materials.SILVER + "_pickaxe";

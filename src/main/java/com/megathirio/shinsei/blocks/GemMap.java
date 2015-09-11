@@ -4,6 +4,7 @@ import com.megathirio.shinsei.core.ShinseiTabs;
 import com.megathirio.shinsei.items.tools.BaseItem;
 import com.megathirio.shinsei.items.GemItems;
 import com.megathirio.shinsei.ref.Names;
+import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 
@@ -13,8 +14,10 @@ public class GemMap {
 
     public static HashMap<String, Item> gemItemMap = new HashMap<String, Item>();
     public static HashMap<BaseGem, String> gemMap = new HashMap<BaseGem, String>();
+//    public static HashMap<Block[], Item[]> gemSets = new HashMap<Block[], Item[]>();
 
     public static void addGems() {
+        //Ores
         gemMap.put(new BaseGem(Names.ores.AMETHYST, Material.rock, GemItems.getItem(Names.gems.AMETHYST), 2, 4), Names.ores.AMETHYST);
         gemMap.put(new BaseGem(Names.ores.APATITE, Material.rock, GemItems.getItem(Names.gems.APATITE), 2, 4), Names.ores.APATITE);
         gemMap.put(new BaseGem(Names.ores.BERYL, Material.rock, GemItems.getItem(Names.gems.AQUAMARINE), 2, 4), Names.ores.BERYL);
@@ -26,6 +29,12 @@ public class GemMap {
         gemMap.put(new BaseGem(Names.ores.OPAL, Material.rock, GemItems.getItem(Names.gems.OPAL), 2, 4), Names.ores.OPAL);
         gemMap.put(new BaseGem(Names.ores.TOPAZ, Material.rock, GemItems.getItem(Names.gems.TOPAZ), 2, 4), Names.ores.TOPAZ);
         gemMap.put(new BaseGem(Names.ores.TURQUOISE, Material.rock, GemItems.getItem(Names.gems.TURQUOISE), 2, 4), Names.ores.TURQUOISE);
+        //Blocks
+/*
+        gemMap.put(new BaseGem(Names.blocks.AMETHYST, Material.rock, GemItems.getItem(Names.gems.AMETHYST), 2, 4), Names.blocks.AMETHYST);
+        gemMap.put(new BaseGem(Names.blocks.APATITE, Material.rock, GemItems.getItem(Names.gems.APATITE), 2, 4), Names.blocks.APATITE);
+*/
+
     }
 
     public static void addGemItems() {
@@ -44,6 +53,12 @@ public class GemMap {
         gemItemMap.put(Names.gems.TURQUOISE, new BaseItem(Names.gems.TURQUOISE, ShinseiTabs.GEMS_TAB));
     }
 
+/*
+    public static void addSets() {
+        //new Block[]{ore,block}, new Item[]{ingot,nugget,dust}
+        gemSets.put(new Block[]{gemMap.get(Names.ores.AMETHYST), metalMap.get(Names.blocks.SILVER)}, new Item[]{metalItemMap.get(Names.ingots.SILVER), metalItemMap.get(Names.nuggets.SILVER), metalItemMap.get(Names.dusts.SILVER)});
+    }
+*/
     public static HashMap<String, Item> getGemItemMap() {
         return gemItemMap;
     }

@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class BaseRecipes {
     public static void initRecipes() {
         GameRegistry.addShapelessRecipe(new ItemStack(Items.flint, 1), Item.getItemFromBlock(Blocks.gravel), Item.getItemFromBlock(Blocks.gravel));
+/*
         GameRegistry.addShapedRecipe(new ItemStack(Foods.getItem(Names.foods.CURED_BEEF), 1), "!!!", "!@!", "!!!", '!', MineralItems.getItem(Names.dusts.SALT), '@', Items.beef);
         GameRegistry.addShapedRecipe(new ItemStack(Foods.getItem(Names.foods.CURED_PORK), 1), "!!!", "!@!", "!!!", '!', MineralItems.getItem(Names.dusts.SALT), '@', Items.porkchop);
         GameRegistry.addShapelessRecipe(new ItemStack(Foods.getItem(Names.foods.POISON_APPLE), 1), MetalItems.getItem(Names.dusts.ARSENIC), Items.apple);
@@ -29,5 +30,6 @@ public class BaseRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(Foods.getItem(Names.foods.POISON_PORK), 1), MetalItems.getItem(Names.dusts.ARSENIC), Items.cooked_porkchop);
         GameRegistry.addShapelessRecipe(new ItemStack(Foods.getItem(Names.foods.POISON_RABBIT), 1), MetalItems.getItem(Names.dusts.ARSENIC), Items.cooked_rabbit);
         GameRegistry.addShapelessRecipe(new ItemStack(Foods.getItem(Names.foods.POISON_RABBIT_STEW), 1), MetalItems.getItem(Names.dusts.ARSENIC), Items.rabbit_stew);
+*/
     }
 }

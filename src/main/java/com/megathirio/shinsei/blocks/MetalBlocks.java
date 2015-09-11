@@ -12,19 +12,20 @@ import java.util.Map;
 
 public class MetalBlocks {
 
-    public static HashMap<BaseMetal, String> metalMap = new MetalMap().getMetalMap();
+    public static HashMap<String, BaseMetal> metalMap = new MetalMap().getMetalMap();
 
     public static void createMetalBlocks(){
         MetalMap.addMetals();
-        for(Map.Entry<BaseMetal, String> mapEntry : metalMap.entrySet()) {
-            GameRegistry.registerBlock(mapEntry.getKey(), mapEntry.getValue());
+        MetalMap.addSets();
+        for(Map.Entry<String, BaseMetal> mapEntry : metalMap.entrySet()) {
+            GameRegistry.registerBlock(mapEntry.getValue(), mapEntry.getKey());
         }
     }
 
     public static void registerBlockRenderer(){
-        for (Map.Entry<BaseMetal, String> mapEntry : metalMap.entrySet()) {
-            String unlocalizedName = mapEntry.getValue();
-            Block block = mapEntry.getKey();
+        for (Map.Entry<String, BaseMetal> mapEntry : metalMap.entrySet()) {
+            String unlocalizedName = mapEntry.getKey();
+            Block block = mapEntry.getValue();
 
             Minecraft.getMinecraft().getRenderItem().getItemModelMesher()
                     .register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(Ref.RESOURCE_PREFIX + unlocalizedName, "inventory"));
@@ -32,15 +33,15 @@ public class MetalBlocks {
     }
 
     public static Block getBlock(String blockName){
-        BaseMetal key = null;
-        String value = blockName;
+        BaseMetal block = null;
+        String name = blockName;
 
-        for (Map.Entry<BaseMetal, String> mapEntry : metalMap.entrySet()) {
-            if(value.equals(mapEntry.getValue())){
-                key = mapEntry.getKey();
+        for (Map.Entry<String, BaseMetal> mapEntry : metalMap.entrySet()) {
+            if(name.equals(mapEntry.getKey())){
+                block = mapEntry.getValue();
                 break;
             }
         }
-        return key;
+        return block;
     }
 }

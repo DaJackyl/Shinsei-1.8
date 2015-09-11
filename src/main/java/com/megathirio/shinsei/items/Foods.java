@@ -14,6 +14,7 @@ public class Foods {
 
     public static void createFoods(){
         FoodMap.addFoods();
+        FoodMap.addSets();
         for(Map.Entry<String, Item> mapEntry : foodMap.entrySet()) {
             GameRegistry.registerItem(mapEntry.getValue(), mapEntry.getKey());
         }
