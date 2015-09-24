@@ -17,7 +17,6 @@ public class BookShovel extends Item{
         this.setCreativeTab(ShinseiTabs.TOOLS_TAB);
     }
 
-/*
     @Override
     public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn){
         if (!worldIn.isRemote)
@@ -28,7 +27,12 @@ public class BookShovel extends Item{
         return itemStackIn;
     }
 
-*/
+    @Override
+    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityPlayer playerIn)
+    {
+        return stack;
+    }
+
     @Override
     public boolean hasContainerItem(ItemStack itemstack) {
         return true;

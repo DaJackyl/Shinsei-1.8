@@ -33,9 +33,9 @@ public class GuiAxeBook extends GuiScreen{
             bookPageTextures[2] = new ResourceLocation(
                     Ref.RESOURCE_PREFIX + "textures/gui/" + Names.books.AXE + "_1.png");
             stringPageText[0] = "";
-            stringPageText[1] = "The Mysterious Stranger admired your family cow and asked if it was for sale.\n\nWhen you nodded, he offered to trade some Magic Beans, that (if planted in tilled dirt) would lead to more wealth than you could imagine.";
-            stringPageText[2]="So you handed him your cow, and grabbed the Magic Beans.\n\nPleased with yourself, you hurried away, looking for tilled dirt in which to plant the Magic Beans.\n\nYou couldn't wait to see how proud your mother would be for";
-            stringPageText[3]="being so shrewd!  Untold wealth in return for an old, milkless cow; what a good deal you made!\n\nSo off you went, looking for a place to plant the Magic Beans with room to grow...";
+            stringPageText[1] = "";
+            stringPageText[2] = "";
+            stringPageText[3] = "";
         }
 
         /**

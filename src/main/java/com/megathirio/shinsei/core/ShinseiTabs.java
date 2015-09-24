@@ -1,7 +1,10 @@
 package com.megathirio.shinsei.core;
 
 import com.megathirio.shinsei.blocks.GemBlocks;
+import com.megathirio.shinsei.blocks.MachineBlocks;
 import com.megathirio.shinsei.blocks.MetalBlocks;
+import com.megathirio.shinsei.blocks.MineralBlocks;
+import com.megathirio.shinsei.items.Foods;
 import com.megathirio.shinsei.items.MetalItems;
 import com.megathirio.shinsei.items.tools.Tools;
 import com.megathirio.shinsei.ref.Names;
@@ -13,14 +16,14 @@ public class ShinseiTabs {
     public static final CreativeTabs METALS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "metals_tab") {
         @Override
         public Item getTabIconItem() {
-            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.ACANTHITE));
+            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.BORNITE));
         }
     };
 
     public static final CreativeTabs MINERALS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "minerals_tab") {
         @Override
         public Item getTabIconItem() {
-            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.ACANTHITE));
+            return Item.getItemFromBlock(MineralBlocks.getBlock(Names.ores.DOLOMITE));
         }
     };
 
@@ -34,21 +37,21 @@ public class ShinseiTabs {
     public static final CreativeTabs MACHINES_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "machines_tab") {
         @Override
         public Item getTabIconItem() {
-            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.ACANTHITE));
+            return Item.getItemFromBlock(MachineBlocks.getBlock(Names.machines.ANBIRU));
         }
     };
 
     public static final CreativeTabs BLOCKS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "blocks_tab") {
         @Override
         public Item getTabIconItem() {
-            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.ores.ACANTHITE));
+            return Item.getItemFromBlock(MetalBlocks.getBlock(Names.blocks.MOLYBDENUM));
         }
     };
 
     public static final CreativeTabs FOODS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "foods_tab") {
         @Override
         public Item getTabIconItem() {
-            return MetalItems.getItem(Names.ingots.SILVER);
+            return Foods.getItem(Names.foods.CURED_BEEF);
         }
     };
     public static final CreativeTabs TOOLS_TAB = new CreativeTabs(Ref.RESOURCE_PREFIX + "tools_tab") {

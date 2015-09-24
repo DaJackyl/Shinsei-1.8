@@ -17,7 +17,6 @@ public class BookShinsei extends Item{
         this.setCreativeTab(ShinseiTabs.ITEMS_TAB);
     }
 
-/*
     @Override
     public ItemStack onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn){
         if (!worldIn.isRemote)
@@ -27,7 +26,12 @@ public class BookShinsei extends Item{
         }
         return itemStackIn;
     }
-*/
+
+    @Override
+    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityPlayer playerIn)
+    {
+        return stack;
+    }
 
     @Override
     public boolean hasContainerItem(ItemStack itemstack) {

@@ -2,9 +2,10 @@
 
 # Creative Tabs
 itemGroup.shinsei:metals_tab=Shinsei Metals
+itemGroup.shinsei:minerals_tab=Shinsei Minerals
 itemGroup.shinsei:gems_tab=Shinsei Gems
-itemGroup.shinsei:blocks_tab=Shinsei Blocks
 itemGroup.shinsei:machines_tab=Shinsei Machines
+itemGroup.shinsei:blocks_tab=Shinsei Blocks
 itemGroup.shinsei:food_tab=Shinsei Food
 itemGroup.shinsei:tools_tab=Shinsei Tools
 itemGroup.shinsei:items_tab=Shinsei Items
@@ -12,6 +13,15 @@ itemGroup.shinsei:items_tab=Shinsei Items
 #Gems
 tile.amethyst_ore.name=Amethyst
 tile.apatite_ore.name=Apatite
+tile.beryl_ore.name=Beryl
+tile.chalcedony_ore.name=Chalcedony
+tile.corundum_ore.name=Corundum
+tile.fluorite_ore.name=Fluorite
+tile.jadeite_ore.name=Jadeite
+tile.olivine_ore.name=Olivine
+tile.opal_ore.name=Opal
+tile.topaz_ore.name=Topaz
+tile.turquoise_ore.name=Turquoise
 
 #Ores
 tile.acanthite_ore.name=Acanthite
@@ -42,14 +52,57 @@ tile.tantalite_ore.name=Tantalite
 tile.uraninite_ore.name=Uraninite
 
 #Minerals
+tile.basalt_block.name=Basalt
+tile.basalt_cobble.name=Basalt Cobblestone
+tile.borax_block.name=Borax
+tile.chalk_block.name=Chalk
+tile.dolomite_ore.name=Dolomite
+tile.gypsum_block.name=Gypsum
 tile.halite_ore.name=Halite
+tile.limestone_block.name=Limestone
+tile.siltstone_block.name=Siltstone
 tile.meteorite.name=Meteorite
 
 #Blocks
 tile.aluminum_block.name=Aluminum Block
 tile.amethyst_block.name=Amethyst Block
+tile.antimony_block.name=Antimony Block
 tile.apatite_block.name=Apatite Block
+tile.aquamarine_block.name=Aquamarine Block
+tile.barium_block.name=Barium Block
+tile.bismuth_block.name=Bismuth Block
+tile.brass_block.name=Brass Block
+tile.bronze_block.name=Bronze Block
+tile.chromium_block.name=Chromium Block
+tile.cobalt_block.name=Cobalt Block
+tile.copper_block.name=Copper Block
+tile.fluorite_block.name=Fluorite Block
+tile.indium_block.name=Indium Block
+tile.iridium_block.name=Iridium Block
+tile.jade_block.name=Jade Block
+tile.lead_block.name=Lead Block
+tile.magnesium_block.name=Magnesium Block
+tile.manganese_block.name=Manganese Block
+tile.molybdenum_block.name=Molybdenum Block
+tile.nickel_block.name=Nickel Block
+tile.onyx_block.name=Onyx Block
+tile.opal_block.name=Opal Block
+tile.peridot_block.name=Peridot Block
+tile.platinum_block.name=Platinum Block
+tile.ruby_block.name=Ruby Block
+tile.sapphire_block.name=Sapphire Block
+tile.scarlet_emerald_block.name=Scarlet Emerald Block
 tile.silver_block.name=Silver Block
+tile.stainless_steel_block.name=Stainless Steel Block
+tile.steel_block.name=Steel Block
+tile.tantalum_block.name=Tantalum Block
+tile.tin_block.name=Tin Block
+tile.titanium_block.name=Titanium Block
+tile.topaz_block.name=Topaz Block
+tile.tungsten_block.name=Tungsten Block
+tile.turquoise_block.name=Turquoise Block
+tile.vanadium_block.name=Vanadium Block
+tile.zinc_block.name=Zinc Block
 
 tile.brick.gray.name=Gray Bricks
 tile.brick.tan.name=Tan Bricks
@@ -155,11 +208,11 @@ item.split_wood.name=Split Wood
 
 #Tools
 item.book_axe.name=Forestry Vol. I
-item.book_chisel.name=Sculpting Vol. I
+item.book_chisel.name=Sculpture Vol. I
 item.book_hoe.name=Agronomy Vol. I
 item.book_pickaxe.name=Mineralogy Vol. I
 item.book_shovel.name=Geology Vol. I
-item.book_sword.name=Hoplology Vol. I
+item.book_sword.name=Martial Arts Vol. I
 item.book_shinsei.name=Shinsei Vol. I
 
 item.bone_axe.name=Bone Axe
